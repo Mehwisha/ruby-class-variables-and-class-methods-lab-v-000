@@ -24,7 +24,7 @@ end
 
 end
 def artists
-  artist.count
+artists.count
  # artist.count
 end
 # def artist_count
