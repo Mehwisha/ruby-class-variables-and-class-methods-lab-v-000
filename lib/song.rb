@@ -12,7 +12,7 @@ self.artist = artist
 self.genre = genre
 @@count += 1
 @@genres << genres
-@@artists << artists.count
+@@artists << artists
 end
 
 
@@ -25,7 +25,7 @@ end
 end
 def artists
   artist.squeeze
-  @@artists << artist
+  @@artists << artist.count
 end
 # def artist_count
 # @@artists << artist
