@@ -12,7 +12,7 @@ self.artist = artist
 self.genre = genre
 @@count += 1
 @@genres << genres
-@@artists << artists
+@@artists << artists.count
 end
 
 
