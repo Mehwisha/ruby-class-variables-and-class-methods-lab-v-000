@@ -25,6 +25,7 @@ end
 end
 def artists
   artist.squeeze
+  @@artists << artist
 end
 # def artist_count
 # @@artists << artist
